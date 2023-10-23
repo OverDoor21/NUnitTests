@@ -13,6 +13,7 @@
         }
     }
 
+
     public class Customer
     {
         public bool IsGold { get; set; }
