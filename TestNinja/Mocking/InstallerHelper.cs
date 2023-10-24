@@ -1,10 +1,12 @@
 ﻿using System.Net;
+using TestNinja.Mocking;
 
 namespace TestNinja.Mocking
 {
     public class InstallerHelper
     {
         private string _setupDestinationFile;
+
 
         public bool DownloadInstaller(string customerName, string installerName)
         {
